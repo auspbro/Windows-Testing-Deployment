@@ -1,6 +1,6 @@
 @echo off
 
-title Basic set
+title Basic Setting
 
 
 set UAC=0
@@ -12,16 +12,18 @@ pause
 goto :eof
 )
 
-echo=
-echo Set enter desktop after logon
-(echo [Shell]
-echo Command=2
-echo IconFile=Explorer.exe,3
-echo [Taskbar]
-echo Command=ToggleDesktop
-)>>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\desktop.scf"
-echo Set enter desktop successful
-timeout 2 >nul
+:: rem ####################
+:: rem  Windows 8 disable morden UI
+:: echo=
+:: echo Set enter desktop after logon
+:: (echo [Shell]
+:: echo Command=2
+:: echo IconFile=Explorer.exe,3
+:: echo [Taskbar]
+:: echo Command=ToggleDesktop
+:: )>>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\desktop.scf"
+:: echo Set enter desktop successful
+:: timeout 2 >nul
 
 
 
