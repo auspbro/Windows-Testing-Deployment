@@ -56,7 +56,7 @@ Some trickys & settings for function testing smoothly about Windows.
 
 ## 14 .避免 DELL WBDD 跑 Memory 報錯
 
-control panel>all control panel items>administrative tools>local palicy>user rights assignment>lock pages in memory>every one
+	control panel>all control panel items>administrative tools>local Secrity policy>user rights assignment>lock pages in memory>every one
 
 ## 15. NPI 阶段某些 driver 未经 Microsoft 认证，需 enable Test mode 才可正常安装使用
 
